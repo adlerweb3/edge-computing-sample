@@ -1,3 +1,9 @@
 name = "edge-computing-sample"
 main = "src/index.ts"
 compatibility_date = "2022-10-28"
+
+[vars]
+UPSTASH_REDIS_REST_URL = "https://global-noble-marmoset-31724.upstash.io"
+
+# [secrets]
+# UPSTASH_REDIS_REST_TOKEN

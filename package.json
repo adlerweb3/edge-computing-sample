@@ -8,7 +8,12 @@
   },
   "private": true,
   "scripts": {
+    "local": "wrangler dev --local",
     "start": "wrangler dev",
     "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.15.1",
+    "worktop": "^0.7.3"
   }
 }
